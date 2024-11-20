@@ -19,7 +19,7 @@ li {
 	--lato: 'Lato', sans-serif;
 
 	--light: #F9F9F9;
-	--blue: #3C91E6;
+	--blue: #F10909;
 	--light-blue: #CFE8FF;
 	--grey: #eee;
 	--dark-grey: #AAAAAA;
@@ -84,7 +84,15 @@ body {
 	z-index: 500;
 	padding-bottom: 20px;
 	box-sizing: content-box;
+	padding-left: 20px;
 }
+
+#sidebar .brand img {
+    width: 30px;              
+    height: 30px;             
+    margin-right: 20px;       
+}
+
 #sidebar .brand .bx {
 	min-width: 60px;
 	display: flex;
@@ -518,14 +526,6 @@ body {
 /* MAIN */
 /* CONTENT */
 
-
-
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
 	#sidebar {
 		width: 200px;
@@ -540,11 +540,6 @@ body {
 		display: none;
 	}
 }
-
-
-
-
-
 
 @media screen and (max-width: 576px) {
 	#content nav form .form-input input {
